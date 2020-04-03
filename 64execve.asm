@@ -1,6 +1,6 @@
 ;# 	Shellcode by Lotus	#;
 ;# 	execve("/bin/sh")	#;
-;#	64 bit arch		  #;
+;#	64 bit arch		#;
 
 BITS 64
 

